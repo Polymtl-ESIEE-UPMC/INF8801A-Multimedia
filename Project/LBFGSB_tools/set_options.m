@@ -10,8 +10,8 @@ function [m,tol,max_iters,display,xhistory] = set_options(options)
    %  display: true/false should iteration information be displayed?
    %  xhistory: true/false should the entire search history be stored?
    m = 10;
-   tol = 1.0e-5;
-   max_iters = 20;
+   tol = 10.0;
+   max_iters = 10;
    display = false;
    xhistory = false;
    if ( isfield(options, 'm') )

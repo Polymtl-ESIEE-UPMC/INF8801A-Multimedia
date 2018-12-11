@@ -21,4 +21,6 @@ function [opt] = get_optimality(x,g,l,u)
    projected_g = projected_g - x;
    opt = max(abs(projected_g));
    
+   
+   
 end
